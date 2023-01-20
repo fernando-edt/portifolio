@@ -1,0 +1,51 @@
+@media screen and (min-width:400px)and (max-width:768px) {
+    i#burgui{
+        margin-top: -60px;
+        
+    }
+    menu#list ul{
+        display: block;
+        width: 150px;
+        height: 191px;
+        margin-bottom: -320px;
+        margin-right:-150px ;
+        border:2px solid rgb(0, 0, 0);
+        background: gray;
+        
+z-index:2;
+    }
+    menu#list a{
+        position: relative;
+        margin: auto;
+        padding: 10px;
+        
+    }
+    
+   
+    
+}
+
+
+
+@media screen and (min-width:768px) and (max-width:992px){
+    i#burgui{
+        display:none;
+    }
+    menu{
+        display:block;
+    }
+    menu#list a{
+        color: aqua;
+    }
+}
+
+@media screen and (min-width:992px)  {
+    i#burgui{
+        display:none;
+    }
+    menu{
+        display: block;
+    }
+    
+}
+    

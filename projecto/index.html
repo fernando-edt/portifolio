@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo/style.css">
+    <link rel="stylesheet" href="estilo/media-style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>portifolio</title>
+
+</head>
+<body>
+    <section class="zero">
+       <!-- <div >-->
+        
+    <nav >
+        
+        <h2 class="logo">portifolio</h2>
+
+            <menu id="list">
+                <ul>
+                    <li><a href="#">home</a></li>
+                    <li><a href="#">sobre-min</a></li>
+                    <li><a href="#">serviçou</a></li>
+                    <li><a href="#">abilidades</a></li>
+                    <li><a href="#">contato</a></li>
+                </ul>
+            </menu>
+    <i id="burgui" class="fa-sharp fa-solid fa-bars" onclick="clickmenu()"></i>
+    </nav>
+    <!--<a class="btn" href="#">cadastra</a>-->
+       
+        <div class="content">
+            <h4>òla meu nome é</h4>
+            <h1>Fernando</h1>
+            <h3>sou desenvolvedor front end</h3>
+        <div class="email">
+            <form autocomplete="on"> 
+            <input type="email" name="email" id="email" placeholder="email" autocomplete="email">
+            <input type="submit" value="enviar" id="hover">
+            </form>
+        </div>
+        </div> 
+        <!--</div>-->
+    </section>
+    <!--about-->
+    <section class="sobre">
+        <div class="main" >
+            <img src="imge/tete.png">
+            <div class="sobre-text">
+                <h2>sobre me</h2>
+                <h5>desenvolvedor & <span>desing</span></h5>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel distinctio sequi explicabo perferendis quidem adipisci, expedita porro, accusantium sed aliquid saepe officiis reiciendis repellat eveniet id nesciunt quaerat magnam sint!</p>
+                <button type="botao"> paggg</button>
+            </div>
+        </div>
+    </section>
+    <!--serviços start-->
+    <div class="serviço">
+        <div class="titulo">
+            <h2>our serviços</h2>
+        </div>
+        <div class="box">
+            <div class="card">
+                <i class="fa-sharp fa-solid fa-bars"></i>
+            <h5>web desenvolvedor</h5>
+            <div class="pra">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio sed </p>
+                <p style="text-align: center;"><a class="button" href="#"> red more</a></p>
+                </div>
+            </div>
+
+            <div class="card">
+                <i class="fa-sharp fa-solid fa-user"></i>
+            <h5>web desenvolvedor</h5>
+            <div class="pra">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio sed quisquam quo dolor </p>
+                <p style="text-align: center;"><a class="button" href="#"> red more</a></p>
+                </div>
+            </div>
+
+            <div class="card">
+                <i class="fa-sharp fa-solid fa-bell"></i>
+                <h5>web desenvolvedor</h5>
+                <div class="pra">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio sed quisquam quo dolor </p>
+                <p style="text-align: center;"><a class="button" href="#"> red more</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+   <!--contato-->
+   <div class="contact-me">
+    <p>deixe-me arranjar-lhe um site bonito</p>
+    <a class="button-02"  href="#">contrata-me</a>
+   </div>
+   <footer>
+    <p>teeeeee</p>
+    <p>minha redes social</p>
+    <div class="social">
+        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+        <a href="#"><i class="fa-brands fa-youtube"></i></a>
+        <a href="#"><i class="fa-brands fa-github"></i></a>
+    </div>
+   </footer>
+   <script>
+    function clickmenu(){
+        if(list.style.display == 'block'){
+            list.style.display = 'none'
+        }else{
+            list.style.display = 'block'
+
+        }
+
+    }
+   </script>
+
+</body>
+</html>
